@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Dashboard</h1>
+        <div id="container"></div>
+        <div id="orders">
+            <h2>Orders</h2>
+            <form>
+                <input type="text" name="customer_name"/>
+                <input type="text" name="description"/>
+                <input type="hidden" name="action" value="create_order">
+                <input type="submit" value="create"/>
+            </form>
+        </div>
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/hogan-3.0.2.min.js"></script>
+        <script src="js/custom.js"></script>
+    </body>
+</html>
